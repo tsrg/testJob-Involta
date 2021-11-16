@@ -1,0 +1,139 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+
+.page {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.header__logo {
+  max-width: 111px;
+  max-height: 73px;
+}
+
+.header__top-menu-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__top-menu-item {
+  display: inline;
+  padding: 29px;
+}
+
+.header__top-menu-icon {
+  max-width: 15px;
+  max-height: 15px;
+  padding-right: 10px;
+}
+
+.header__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #2B2B2B;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.header__link:hover {
+  color: #E89F38;
+  cursor: pointer;
+}
+
+.header__buttons-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__button {
+  display: inline;
+  padding-right: 41px;
+  transition: all 0.2s ease-in;
+}
+
+svg path {
+  fill:inherit;
+  stroke:inherit;
+  stroke-width:inherit;
+  }
+
+.header__button:hover {
+  stroke: #E89F38;
+  cursor: pointer;
+}
+
+.header__button:last-of-type {
+  padding-right: 0;
+}
+
+
+
+
+.catalog {
+  grid-column-start: 2;
+}
+
+.info {
+  grid-column-start: 2;
+}
+
+.side-bar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-bar__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2B2B2B;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.side-bar__link:hover {
+  color: #E89F38;
+  cursor: pointer;
+}
+
+.side-bar__group-header {
+  display: block;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2B2B2B;
+  padding-top: 23px;
+  margin: 0;
+}
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
