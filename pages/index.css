@@ -642,14 +642,10 @@
   align-content: flex-start;
 }
 
-.footer__logo {
-
-}
-
 .footer__menu {
   display: flex;
   grid-column-start: 2;
-  gap: 54px;
+  gap: 53px;
   flex-wrap: wrap;
 }
 
@@ -664,8 +660,6 @@
   max-height: 150px;
   width: fit-content;
 }
-
-
 
 .footer__menu-group {
   padding: 0;
@@ -685,7 +679,7 @@
 }
 
 .footer__menu-group_type_contacts {
-  max-width: 197px;
+  max-width: 200px;
 }
 
 .footer__menu-items_type_contacts {
@@ -712,7 +706,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  padding-right: 39px;
+  padding-right: 37px;
   padding-bottom: 11px;
 }
 
