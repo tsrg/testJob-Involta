@@ -1,4 +1,53 @@
+@import url(../vendor/normalize.css);
+/* line 21, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.breadcrumbs__items, .catalog__item-name, .catalog__art-number, .side-bar__form-list, .footer__menu-items, .footer__menu-group, .footer__menu-group-header, .footer__menu-city-name, .footer__social-buttons {
+  margin: 0;
+  padding: 0;
+}
 
+/* line 26, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.catalog__description, .info__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2B2B2B;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 35, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.catalog__title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #2B2B2B;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 44, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.info__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2B2B2B;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 53, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.page {
+  font-family: Inter;
+  font-style: normal;
+  letter-spacing: -0.03em;
+}
+
+/* line 59, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.header__link:hover, .header__button:hover, .catalog__sort-button:hover, .catalog__like-button:hover .catalog__like-button-icon, .catalog__pagination-button:hover, .catalog__show-more:hover, .footer__social-button:hover {
+  filter: invert(63%) sepia(37%) saturate(860%) hue-rotate(353deg) brightness(103%) contrast(82%);
+}
+
+/* line 65, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .page {
   max-width: 1360px;
   min-width: 360px;
@@ -7,6 +56,7 @@
   padding-right: 30px;
 }
 
+/* line 74, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -16,32 +66,35 @@
   justify-content: space-between;
 }
 
+/* line 83, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .header__logo {
   max-width: 111px;
   max-height: 73px;
 }
 
+/* line 88, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .header__top-menu-items {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+/* line 94, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .header__top-menu-item {
   display: inline;
   padding: 0;
   padding-right: 56px;
 }
 
+/* line 100, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .header__top-menu-icon {
   max-width: 15px;
   max-height: 15px;
   padding-right: 10px;
 }
 
+/* line 106, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .header__link {
-  font-family: Inter;
-  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
@@ -52,162 +105,129 @@
   transition: all 0.2s ease-in;
 }
 
-.header__link:hover {
-  filter: invert(63%) sepia(37%) saturate(860%) hue-rotate(353deg) brightness(103%) contrast(82%);
-}
-
-
+/* line 121, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .header__buttons-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+/* line 127, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .header__buttons {
   justify-self: end;
 }
 
+/* line 131, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .header__button {
   display: inline;
   padding-right: 34px;
   transition: all 0.2s ease-in;
 }
 
-.header__button:hover {
-  filter: invert(63%) sepia(37%) saturate(860%) hue-rotate(353deg) brightness(103%) contrast(82%);
-}
-
-
-.header__button svg path{
-  fill: currentcolor;
-  stroke: currentcolor;
-}
-
+/* line 136, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .header__button:last-of-type {
   padding-right: 0;
 }
 
+/* line 145, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .wrapper {
   display: flex;
 }
 
+/* line 149, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .content {
   order: 2;
 }
 
+/* line 153, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .breadcrumbs {
   width: 100%;
   padding-top: 18px;
 }
 
+/* line 158, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .breadcrumbs__items {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
+/* line 163, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .breadcrumbs__item {
   display: inline;
-}
-
-.breadcrumbs__link {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 15px;
+}
+
+/* line 168, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.breadcrumbs__item:last-of-type {
   color: #2B2B2B;
-  text-decoration-color: #E89F38;
-  transition: all 0.2s ease-in;
 }
 
-.breadcrumbs__item::after {
+/* line 172, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.breadcrumbs__item:after {
   content: "/";
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
   color: #D8D8D8;
   text-decoration: none;
   padding-right: 5px;
   padding-left: 5px;
 }
 
-.breadcrumbs__item:last-of-type::after {
+/* line 180, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.breadcrumbs__item:last-of-type:after {
   content: "";
 }
 
-.breadcrumbs__item:last-of-type {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+/* line 185, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.breadcrumbs__link {
   font-size: 12px;
   line-height: 15px;
   color: #2B2B2B;
+  text-decoration-color: #E89F38;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
 }
 
+/* line 193, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .breadcrumbs__link:hover {
-  cursor: pointer;
   color: #E89F38;
 }
 
+/* line 198, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__title-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  margin: 0;
   padding-top: 10px;
 }
 
-.catalog__title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: -0.03em;
-  color: #2B2B2B;
-  margin: 0;
-  padding: 0;
-}
-
+/* line 211, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__title-icon {
   max-width: 32px;
   max-height: 32px;
 }
 
+/* line 216, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__description {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: -0.03em;
-  color: #2B2B2B;
-  margin: 0;
-  padding: 0;
   padding-top: 17px;
 }
 
+/* line 221, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__wrapper {
   display: flex;
   justify-content: space-between;
   padding-top: 13px;
 }
 
+/* line 227, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__sort-buttons {
   padding-top: 4px;
   float: left;
   padding-top: 20px;
 }
 
+/* line 233, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__sort-button {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 15px;
   color: #2B2B2B;
@@ -220,14 +240,21 @@
   transition: all 0.2s ease-in;
 }
 
-.catalog__sort-button:hover {
-  filter: invert(63%) sepia(37%) saturate(860%) hue-rotate(353deg) brightness(103%) contrast(82%);
+/* line 250, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.catalog__sort-button_active {
+  background: #2B2B2B;
+  font-weight: bold;
+  color: #fff;
+  cursor: default;
 }
 
+/* line 256, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.catalog__sort-button_active:hover {
+  filter: none;
+}
+
+/* line 261, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__quantity {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 15px;
   text-align: right;
@@ -236,17 +263,7 @@
   padding-top: 25px;
 }
 
-.catalog__sort-button_active {
-  background: #2B2B2B;
-  font-weight: bold;
-  color: #FFF;
-  cursor: default;
-}
-
-.catalog__sort-button_active:hover {
-  filter: none;
-}
-
+/* line 270, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__items {
   display: flex;
   width: 100%;
@@ -255,6 +272,7 @@
   padding-top: 14px;
 }
 
+/* line 278, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__item {
   width: calc((100% - 30px)/3);
   padding-top: 5px;
@@ -266,19 +284,23 @@
   padding-bottom: 17px;
 }
 
+/* line 288, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__item:hover {
   cursor: pointer;
 }
 
+/* line 291, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__item:hover .catalog__photo-container {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* line 295, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__item:hover .catalog__item-name {
-  color:#E89F38;
+  color: #E89F38;
   text-decoration: underline;
 }
 
+/* line 302, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__photo-container {
   max-width: 100%;
   height: calc(100% - 26px);
@@ -288,40 +310,34 @@
   transition: all 0.2s ease-in;
 }
 
+/* line 311, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__photo {
   max-width: 100%;
   height: auto;
 }
 
+/* line 316, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__item-name {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   color: #2B2B2B;
   display: block;
-  padding: 0;
-  margin: 0;
   padding-top: 7px;
   transition: all 0.2s ease-in;
   float: left;
 }
 
+/* line 327, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__art-number {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #707070;
   display: block;
-  padding: 0;
-  margin: 0;
   padding-top: 7px;
   float: right;
 }
 
+/* line 337, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__like-button {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
@@ -337,14 +353,12 @@
   transition: all 0.2s ease-in;
 }
 
+/* line 358, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__like-button-icon {
   transition: all 0.2s ease-in;
 }
 
-.catalog__like-button:hover .catalog__like-button-icon {
-  filter: invert(63%) sepia(37%) saturate(860%) hue-rotate(353deg) brightness(103%) contrast(82%);
-}
-
+/* line 362, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__pagination {
   display: flex;
   justify-content: space-between;
@@ -352,17 +366,16 @@
   padding-top: 54px;
 }
 
+/* line 369, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__pagination-buttons {
   display: flex;
   gap: 10px;
 }
 
+/* line 374, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__pagination-button {
   background: none;
   border: 1px solid #2B2B2B;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #2B2B2B;
@@ -372,16 +385,10 @@
   transition: all 0.2s ease-in;
 }
 
-.catalog__pagination-button:hover {
-  filter: invert(63%) sepia(37%) saturate(860%) hue-rotate(353deg) brightness(103%) contrast(82%);
-}
-
+/* line 390, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__show-more {
   background: none;
   border: 1px solid #2B2B2B;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #2B2B2B;
@@ -390,66 +397,52 @@
   transition: all 0.2s ease-in;
 }
 
-.catalog__show-more:hover {
-  filter: invert(63%) sepia(37%) saturate(860%) hue-rotate(353deg) brightness(103%) contrast(82%);
-}
-
+/* line 405, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__arrow_type_left {
   padding-right: 10px;
 }
 
+/* line 409, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__arrow_type_right {
   transform: rotate(180deg);
   padding-right: 10px;
 }
 
+/* line 414, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__pagination-button_type_number {
   width: 34px;
   padding: 7px 0;
   justify-content: center;
 }
 
+/* line 420, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__pagination-button_active {
   background-color: #2B2B2B;
   color: #fff;
   cursor: default;
 }
 
+/* line 425, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .catalog__pagination-button_active:hover {
   filter: none;
 }
 
+/* line 430, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .info {
   padding-top: 20px;
 }
 
+/* line 434, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .info__title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: -0.03em;
-  color: #2B2B2B;
-  padding: 0;
-  margin: 0;
   padding-top: 40px;
 }
 
+/* line 439, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .info__text {
-  margin: 0;
-  padding: 0;
-  padding-top: 11px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: -0.03em;
-  color: #2B2B2B;
-
+  padding-top: 5px;
 }
 
+/* line 444, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar {
   display: flex;
   flex-direction: column;
@@ -458,46 +451,48 @@
   min-width: 200px;
 }
 
+/* line 452, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__form {
   position: relative;
   display: flex;
   flex-direction: column;
 }
 
+/* line 458, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__form-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
+/* line 463, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
+/* line 469, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .sidebar-label {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #2B2B2B;
   padding-bottom: 11px;
 }
 
+/* line 476, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__quantity {
-  color:  #D8D8D8;
+  color: #D8D8D8;
   padding-left: 6px;
 }
 
+/* line 481, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox + .sidebar-label {
   display: inline-flex;
   align-items: center;
   user-select: none;
 }
 
-.side-bar__checkbox + .sidebar-label::before {
+/* line 486, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.side-bar__checkbox + .sidebar-label:before {
   content: '';
   display: inline-block;
   width: 16px;
@@ -514,6 +509,7 @@
   cursor: pointer;
 }
 
+/* line 504, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox_color_white + .sidebar-label::before {
   border: 1px solid #D8D8D8;
   border-radius: 50%;
@@ -521,14 +517,16 @@
   outline: 1px solid #fff;
 }
 
+/* line 511, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox_color_peach + .sidebar-label::before {
-    border: none;
-    border-radius: 50%;
-    background-color: #ECBBAF;
-    border: 1px solid #fff;
-    outline: 1px solid #fff;
+  border: none;
+  border-radius: 50%;
+  background-color: #ECBBAF;
+  border: 1px solid #fff;
+  outline: 1px solid #fff;
 }
 
+/* line 519, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox_color_sheet + .sidebar-label::before {
   border: none;
   border-radius: 50%;
@@ -537,6 +535,7 @@
   outline: 1px solid #fff;
 }
 
+/* line 527, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox_color_yellow + .sidebar-label::before {
   border: none;
   border-radius: 50%;
@@ -545,25 +544,28 @@
   outline: 1px solid #fff;
 }
 
+/* line 535, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox_color_white2 + .sidebar-label::before {
   border: none;
   border-radius: 50%;
-  background: radial-gradient(75.91% 75.91% at 64% 75.91%, rgba(255, 255, 255, 0.46) 0%, #EAEEF4 100%);;
+  background: radial-gradient(75.91% 75.91% at 64% 75.91%, rgba(255, 255, 255, 0.46) 0%, #EAEEF4 100%);
   border: 1px solid #fff;
   outline: 1px solid #fff;
 }
 
-
+/* line 544, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox:checked + .sidebar-label::before {
   background-color: #2B2B2B;
   background-image: url("../images/cheked.svg");
 }
 
+/* line 549, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox_color_white:checked + .sidebar-label::before {
   background-image: url("../images/cheked-black.svg");
   background-color: #fff;
 }
 
+/* line 554, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox_color_peach:checked + .sidebar-label::before {
   background-image: url("../images/cheked-black.svg");
   background-color: #ECBBAF;
@@ -571,6 +573,7 @@
   outline: solid 1px #D8D8D8;
 }
 
+/* line 561, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox_color_sheet:checked + .sidebar-label::before {
   content: url("../images/cheked-black.svg");
   height: 11px;
@@ -584,6 +587,7 @@
   outline: solid 1px #D8D8D8;
 }
 
+/* line 574, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox_color_yellow:checked + .sidebar-label::before {
   background-image: url("../images/cheked-black.svg");
   background-color: #FDBD4E;
@@ -591,6 +595,7 @@
   outline: solid 1px #D8D8D8;
 }
 
+/* line 581, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__checkbox_color_white2:checked + .sidebar-label::before {
   content: url("../images/cheked-black.svg");
   height: 11px;
@@ -599,32 +604,30 @@
   display: flex;
   justify-items: center;
   justify-content: center;
-  background: radial-gradient(75.91% 75.91% at 64% 75.91%, rgba(255, 255, 255, 0.46) 0%, #EAEEF4 100%);;
+  background: radial-gradient(75.91% 75.91% at 64% 75.91%, rgba(255, 255, 255, 0.46) 0%, #EAEEF4 100%);
   border: solid 1px #fff;
   outline: solid 1px #D8D8D8;
 }
 
+/* line 594, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__link {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #2B2B2B;
   text-decoration: none;
   transition: all 0.2s ease-in;
   padding-top: 20px;
-}
-
-.side-bar__link:hover {
-  color: #E89F38;
   cursor: pointer;
 }
 
+/* line 603, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+.side-bar__link:hover {
+  color: #E89F38;
+}
+
+/* line 608, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .side-bar__group-header {
   display: block;
-  font-family: Inter;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
@@ -634,6 +637,7 @@
   margin: 0;
 }
 
+/* line 619, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -643,12 +647,14 @@
   border-top: 1px solid #2B2B2B;
 }
 
+/* line 628, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__logo {
   width: 111px;
   display: block;
   align-self: flex-start;
-  }
+}
 
+/* line 634, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__menu {
   max-width: 1129px;
   display: flex;
@@ -656,49 +662,40 @@
   justify-content: space-between;
 }
 
+/* line 641, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__menu-items {
   list-style: none;
-  padding: 0;
-  margin: 0;
   columns: 2;
 }
 
-.footer__menu-group {
-  padding: 0;
-  margin: 0;
-}
-
+/* line 651, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__menu-items_type_contacts {
   columns: 1;
   gap: 24px;
 }
 
+/* line 656, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__menu-group-header {
-  font-family: Inter;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: -0.03em;
   color: #2B2B2B;
-  padding: 0;
-  margin: 0;
   padding-bottom: 11px;
 }
 
+/* line 665, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__menu-item {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   padding-bottom: 8px;
 }
 
+/* line 671, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__menu-item_type_phone {
   padding-right: 0;
 }
 
+/* line 675, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__menu-link {
   color: #2B2B2B;
   text-decoration: none;
@@ -706,32 +703,20 @@
   cursor: pointer;
 }
 
-.footer__menu-link_type_phone {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: -0.03em;
-}
-
+/* line 681, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__menu-link:hover {
-  color:#E89F38;
+  color: #E89F38;
   text-decoration: underline;
 }
 
+/* line 687, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__menu-city-name {
-  margin: 0;
-  padding: 0;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 13px;
   line-height: 16px;
-  letter-spacing: -0.03em;
   color: #2B2B2B;
 }
 
+/* line 694, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__container {
   width: 100%;
   margin-top: 58px;
@@ -743,264 +728,266 @@
   align-content: flex-start;
 }
 
+/* line 705, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__text {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 22px;
   color: #2B2B2B;
 }
 
+/* line 711, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__social-buttons {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
+/* line 720, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
 .footer__social-button {
   transition: all 0.2s ease-in;
   cursor: pointer;
 }
 
-.footer__social-button:hover {
-  filter: invert(63%) sepia(37%) saturate(860%) hue-rotate(353deg) brightness(103%) contrast(82%);
-}
-
 @media all and (max-width: 1340px) {
+  /* line 730, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__logo {
     margin: 0 auto;
     padding-bottom: 20px;
   }
-
+  /* line 735, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu {
     max-width: none;
   }
 }
 
-@media all and (max-width:  1241px) {
+@media all and (max-width: 1241px) {
+  /* line 741, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .header__top-menu-item {
     padding: 10px;
   }
-
+  /* line 745, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .header__link {
     font-size: 18px;
   }
-
+  /* line 749, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .header__button {
     padding-right: 20px;
   }
-
+  /* line 753, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog {
     justify-content: space-around;
   }
-
+  /* line 757, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__item {
     width: calc((100% - 15px)/2);
   }
 }
 
-@media all and (max-width:  1014px) {
+@media all and (max-width: 1014px) {
+  /* line 763, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__title {
     font-size: 34px;
     line-height: 40px;
   }
-
+  /* line 768, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__pagination {
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
   }
-
+  /* line 774, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__pagination-buttons {
     padding-bottom: 30px;
   }
 }
 
-@media all and (max-width:  940px) {
+@media all and (max-width: 940px) {
+  /* line 780, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .page {
     display: block;
     padding-left: 15px;
     padding-right: 15px;
   }
-
+  /* line 786, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .header__top-menu {
     display: none;
   }
-
+  /* line 790, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .side-bar {
     display: none;
   }
-
+  /* line 794, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer {
     flex-direction: column;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-
+  /* line 801, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__logo {
     padding-bottom: 40px;
   }
-
+  /* line 805, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu {
     justify-content: space-around;
     gap: 27px;
     flex-wrap: wrap;
   }
-
+  /* line 811, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu-group {
     width: 40%;
   }
-
+  /* line 815, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu-group_type_contacts {
     max-width: none;
   }
-
+  /* line 819, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu-item {
     font-size: 14px;
     line-height: 17px;
     padding-right: 18px;
     padding-bottom: 10px;
   }
-
+  /* line 826, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu-group_type_help {
     min-width: 230px;
   }
-
+  /* line 830, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__text {
     font-size: 12px;
   }
 }
 
-@media all and (max-width:  662px) {
+@media all and (max-width: 662px) {
+  /* line 836, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__items {
     justify-content: center;
   }
-
+  /* line 840, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__title-icon {
     max-width: 20px;
     max-height: 20px;
   }
-
+  /* line 845, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__title-container {
     align-items: center;
     justify-content: center;
   }
-
+  /* line 850, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__title {
     padding-right: 15px;
     font-size: 26px;
   }
-
+  /* line 855, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .header__logo {
     max-width: 90px;
   }
-
+  /* line 859, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .breadcrumbs {
     width: auto;
   }
-
+  /* line 863, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .breadcrumbs__link {
     font-size: 11px;
   }
-
+  /* line 868, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .breadcrumbs__item:last-of-type {
     font-size: 11px;
   }
-
-  .breadcrumbs__item::after {
+  /* line 872, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
+  .breadcrumbs__item:after {
     font-size: 10px;
   }
-
+  /* line 877, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__description {
     font-size: 14px;
     line-height: 23px;
     padding-top: 6px;
     text-align: center;
   }
-
+  /* line 884, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__sort-buttons {
     text-align: center;
   }
-
+  /* line 888, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__sort-button {
     font-size: 11px;
     line-height: 13px;
     margin-right: 4px;
     padding: 7px 10px;
   }
-
+  /* line 895, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__quantity {
     font-size: 11px;
     text-align: center;
   }
-
+  /* line 900, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__item {
     width: 100%;
   }
-
+  /* line 904, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__pagination-buttons {
     display: none;
   }
+  /* line 907, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__pagination {
     padding-top: 10px;
   }
-
+  /* line 911, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__item-name {
     font-size: 14px;
   }
-
+  /* line 915, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .catalog__art-number {
     font-size: 12px;
   }
-
+  /* line 919, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .info__title {
     font-size: 20px;
     padding-top: 27px;
   }
-
+  /* line 924, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .info__text {
     font-size: 13px;
     line-height: 24px;
   }
-
+  /* line 929, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu-group {
     width: 100%;
   }
+  /* line 932, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu-item {
     align-self: center;
   }
-
+  /* line 936, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__container {
     flex-direction: column;
   }
-
+  /* line 940, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__social-buttons {
     order: 1;
   }
-
+  /* line 944, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__text {
     order: 2;
     text-align: center;
   }
-
+  /* line 949, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu-group-header {
     text-align: center;
   }
-
+  /* line 953, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu-items {
     align-items: center;
     width: 100%;
     text-align: center;
   }
-
+  /* line 959, ../../../Documents/GitHub/testJob-Involta/style/index.scss */
   .footer__menu-items_type_contacts {
     justify-content: center;
   }
-
 }
+
+/*# sourceMappingURL=index.css.map */
