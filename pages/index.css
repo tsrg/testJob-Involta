@@ -200,6 +200,8 @@
 
 .catalog__sort-buttons {
   padding-top: 4px;
+  float: left;
+  padding-top: 20px;
 }
 
 .catalog__sort-button {
@@ -230,8 +232,8 @@
   line-height: 15px;
   text-align: right;
   color: #2B2B2B;
-  align-self: center;
-
+  float: right;
+  padding-top: 25px;
 }
 
 .catalog__sort-button_active {
