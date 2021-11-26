@@ -293,11 +293,6 @@
   height: auto;
 }
 
-.catalog__item-info {
-  display: flex;
-  justify-content: space-between;
-}
-
 .catalog__item-name {
   font-family: Inter;
   font-style: normal;
@@ -310,6 +305,7 @@
   margin: 0;
   padding-top: 7px;
   transition: all 0.2s ease-in;
+  float: left;
 }
 
 .catalog__art-number {
@@ -323,6 +319,7 @@
   padding: 0;
   margin: 0;
   padding-top: 7px;
+  float: right;
 }
 
 .catalog__like-button {
